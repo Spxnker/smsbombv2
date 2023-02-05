@@ -1,0 +1,141 @@
+@import url("bootstrap.min.css");
+@import url("loader.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap');
+
+:root {
+    --discord-dark: #2C2F33;
+    --alpha-dark: #23272A;
+    --blurple: #e61e62;
+    --dark-blurple: #e61e62;
+    --discord-green: #43B581;
+    --discord-green-d: #31a06e;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: var(--discord-dark);
+    color: #FFF;
+}
+
+.avatar {
+    height: 140px;
+    width: 140px;
+    border-radius: 50% !important;
+}
+
+.badges {
+    height: 40px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.botbadge {
+    height: 30px;
+    width: 50px;
+}
+
+.botbadge-v {
+    height: 30px;
+    width: 60px;
+}
+
+.required {
+    color: #e61e62;
+    cursor: pointer;
+}
+
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+
+input {
+    background-color: var(--alpha-dark) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+img.yuvarlak {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn-blurple {
+    background-color: var(--blurple) !important;
+    color: #FFFFFF !important;
+    width: 96%;
+    position: absolute;
+    left: 2%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-blurple:hover {
+    background-color: var(--dark-blurple) !important;
+    color: #FFFFFF !important;
+}
+
+.bghr {
+    background-color: rgba(255,255,255,0.3) !important;
+    height: 1px !important;
+}
+
+.bg-alpha-dark {
+    background-color: var(--alpha-dark) !important;
+    color: #FFFFFF;
+}
+
+.btn-discord-green {
+    background-color: var(--discord-green) !important;
+    color: #FFFFFF !important;
+}
+
+.btn-discord-green:hover {
+    background-color: var(--discord-green-d) !important;
+    color: #FFFFFF !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--alpha-dark);
+    border-radius: 15px;
+}
+
+.top {
+    background-color: #2C2F33;
+    width: 600px;
+    margin: 10% auto 50px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 400px;
+    padding: 0;
+}
